@@ -2,9 +2,11 @@
 """
 contains the Pascal's Triangle function
 """
+
+
 def pascal_triangle(n):
-    """
-    lists of integers representing the Pascal’s triangle of n
+    """ returns a list of lists of integers representing
+        the Pascal’s triangle of n
     """
     triangle = []
     aux = 0
